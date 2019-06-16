@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="EXng" max_length="40" name="x_301956_exchange_exng" type="collection">
+        <element label="To currency Name ( Ex: USD, INR..." mandatory="true" max_length="10" name="to_currency_name_ex_usd_inr" type="string"/>
+        <element default="INR" label="Your Currency name (Ex: INR, USD...)" mandatory="true" max_length="10" name="your_currency_name_ex_inr_usd" type="string"/>
+        <element label="Your Value" max_length="40" name="your_value" type="integer"/>
+        <element label="You can get" max_length="40" name="you_can_get" read_only="true" type="integer"/>
+    </element>
+</database>
